@@ -1,0 +1,98 @@
+
+
+ <!DOCTYPE html>
+ <html lang="es">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+     <title>figuras geometricas</title>
+ </head>
+ <body>
+     <div class="container main-container">
+         
+       
+         <div class="col-12 col-sx-12 col-sm-12 col-md-12 col-lg-12">
+           <div class="row">
+             <h1>Programa Calcular figuras geometricas</h1>
+     
+            <!-- calcular cuadrado -->
+
+            <div class="row">
+                 <div class="col" >
+                     <form action="" id="miformulario">
+                         Calcular el area de un cuadrado
+                         <label for="">Ingresa el lado de tu cuadrado</label><br>
+                         <input type="text" id="lado_cuadrado" placeholder="lados de un cuadrado"> <br>
+                         
+                         <br>
+                         <button type="button" onclick="cuadrado();">calcular el total</button>
+                         <button onclick="limpiar();">Limpiar campos</button><br>
+                         <br>
+                         <a>El  Area es :<span id="el_resultado_area"></span></a><br>
+                         <a>El  Perimetro es :<span id="el_resultado_perimetro"></span></a><br>
+                         <br>
+                     </form>
+                 </div>
+            </div>
+
+            <!-- calcular triangulo -->
+
+            <div class="row">
+                <div class="col" >
+                    <form action="" id="miformulario">
+                        Calcular el area de un cuadrado
+                        <label for="">Ingresa el lado a triangulo</label><br>
+                        <input type="text" id="lado_a" placeholder="lados que se repite del triangulo"> <br>
+                        <label for="">Ingresa la base del triangulo</label><br>
+                        <input type="text" id="lado_b" placeholder="la base del triangulo"> <br>
+                        
+
+                        <br>
+                        <button type="button" onclick="triangulo();">calcular el total</button>
+                        <button onclick="limpiar();">Limpiar campos</button><br>
+                        <br>
+                        <a>El  Area es :<span id="el_resultado_area_tri"></span></a><br>
+                        <a>El  Perimetro es :<span id="el_resultado_perimetro_tri"></span></a><br>
+                    </form>
+                </div>
+           </div>
+
+                <!-- calcular triangulo -->
+
+                      <div class="row">
+                        <div class="col" >
+                            <form action="" id="miformulario">
+                                Calcular el area de un circulo
+                                <label for="">Ingresa el radio de un circulo</label><br>
+                                <input type="text" id="radio" placeholder="lados que se repite del triangulo"> <br>
+        
+                                <br>
+                                <button type="button" onclick="circulo();">calcular el total</button>
+                                <button onclick="limpiar();">Limpiar campos</button><br>
+                                <br>
+                                <a>El  Area es :<span id="el_resultado_area_circulo"></span></a><br>
+                                <a>El  Perimetro es :<span id="el_resultado_perimetro_circulo"></span></a><br>
+                            </form>
+                        </div>
+                   </div>
+        
+
+
+
+
+
+
+
+        </div>
+  
+      
+ 
+     </div>
+     </div>
+     <script src="figuras.js"></script>
+ </body>
+ </html>
+ 
+ <!-- ----------------------------final de archivo html--------------------------------------------- -->
